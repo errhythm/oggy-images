@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel index.js",
+    "build": "npm install --force --save && babel index.js",
     "start": "npm run build && node index.js"
   },
   "author": "",
