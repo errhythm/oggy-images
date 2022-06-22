@@ -60,5 +60,3 @@ app.get("/sansuyu", async (request, response) => {
 var listener = app.listen(2356, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
-
-module.exports.handler = serverless(app);
